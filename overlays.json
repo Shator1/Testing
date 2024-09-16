@@ -1,0 +1,128 @@
+[
+  {
+    "id": "crown",
+    "title": "Crown",
+    "tags": ["hat"]
+  },
+  {
+    "id": "space_helmet",
+    "title": "Space Helmet",
+    "tags": ["hat"]
+  },
+  {
+    "id": "old_man",
+    "title": "Old Man",
+    "tags": ["hat"]
+  },
+  {
+    "id": "nextfight",
+    "title": "NextFight",
+    "flipped": true,
+    "tags": ["logo"]
+  },
+  {
+    "id": "uroria",
+    "title": "Uroria",
+    "flipped": true,
+    "tags": ["logo"]
+  },
+  {
+    "id": "bunny",
+    "title": "Bunny",
+    "tags": ["suit", "animal"]
+  },
+  {
+    "id": "mojang",
+    "title": "Mojang",
+    "tags": ["logo"]
+  },
+  {
+    "id": "bikini_girl",
+    "title": "Bikini",
+    "tags": ["nsfw"]
+  },
+  {
+    "id": "santa_hat",
+    "title": "Santa Hat",
+    "tags": ["hat", "christmas"]
+  },
+  {
+    "id": "netherite_armor",
+    "title": "Netherite Armor",
+    "tags": ["armor"]
+  },
+  {
+    "id": "diamond_armor",
+    "title": "Diamond Armor",
+    "tags": ["armor"]
+  },
+  {
+    "id": "emerald_armor",
+    "title": "Emerald Armor",
+    "tags": ["armor", "meme"]
+  },
+  {
+    "id": "iron_armor",
+    "title": "Iron Armor",
+    "tags": ["armor"]
+  },
+  {
+    "id": "chain_armor",
+    "title": "Chain Armor",
+    "tags": ["armor"]
+  },
+  {
+    "id": "leather_armor",
+    "title": "Leather Armor",
+    "tags": ["armor"]
+  },
+  {
+    "id": "pumkin",
+    "title": "Pumkin",
+    "filter": "saturated",
+    "tags": ["halloween"]
+  },
+  {
+    "id": "clown_mask",
+    "title": "Clown Mask",
+    "tags": ["mask", "halloween"]
+  },
+  {
+    "id": "cat_ears",
+    "title": "Cat Ears",
+    "tags": ["mask"]
+  },
+  {
+    "id": "frozen",
+    "title": "Frozen"
+  },
+  {
+    "id": "outline",
+    "title": "Outline"
+  },
+  {
+    "id": "red_arm",
+    "title": "Red arm"
+  },
+  {
+    "id": "gigachad",
+    "title": "Gigachad",
+    "filter": "black_and_white",
+    "tags": ["meme"]
+  },
+  {
+    "id": "nacked",
+    "title": "Nacked",
+    "tags": ["nsfw"]
+  },
+  {
+    "id": "sunglasses",
+    "title": "Sunglasses",
+    "tags": ["meme"]
+  },
+  {
+    "id": "3dglasses",
+    "title": "3D glasses",
+    "tags": ["meme"]
+  }
+]
