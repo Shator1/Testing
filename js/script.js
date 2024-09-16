@@ -1,5 +1,6 @@
 import * as skinview3d from "skinview3d";
-import io from 'socket.io-client'; // Keep socket.io-client
+import io from 'socket.io-client';
+
 const container = document.getElementById('skin-viewer');
 const downloadButton = document.getElementById('download');
 const inputField = document.getElementById('username');
@@ -9,8 +10,7 @@ let selectedSkinURL = "";
 const fileInput = document.querySelector('input[type="file"]');
 let timeoutId = null;
 
-// Use your Glitch backend URL for Socket.IO
-const socket = io('https://ember-phantom-margin.glitch.me');
+const socket = io('https://ember-phantom-margin.glitch.me'); // Glitch backend URL for Socket.IO
 
 const overlayContainer = document.getElementById("overlay_elements");
 const tagsContainer = document.getElementById("tag-container");
@@ -29,7 +29,7 @@ window.onbeforeunload = function(e) {
     socket.disconnect();
 };
 
-// Fetch overlays.json using Fetch API instead of reading with fs
+// Fetch overlays.json using Fetch API
 fetch('./src/overlays/overlays.json')
     .then(response => response.json())
     .then(overlays => {
@@ -82,7 +82,7 @@ function addPreviewSkinClickListener(paintEntry) {
         showNotification("Converting skin...", 0);
         formData.append('skinFile', file);
 
-        // Replace toilet-api with your Glitch backend URL
+        // Use your Glitch backend URL for the API call
         fetch('https://ember-phantom-margin.glitch.me/upload', {
             method: 'POST',
             body: formData
@@ -196,7 +196,6 @@ inputField.addEventListener('input', (event) => {
         downloadButton.disabled = true;
         skinURL = "";
     }, 500);
-
 });
 
 fileInput.addEventListener('change', (event) => {
