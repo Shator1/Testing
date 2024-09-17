@@ -1,4 +1,4 @@
-import * as skinview3d from "skinview3d";
+    import * as skinview3d from 'https://cdn.jsdelivr.net/npm/skinview3d@latest/dist/skinview3d.module.js';
     // Import socket.io-client from CDN
     import { io } from 'https://cdn.socket.io/4.0.0/socket.io.esm.min.js';
 
