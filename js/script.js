@@ -1,5 +1,9 @@
 import * as skinview3d from "skinview3d";
- import { io } from 'https://cdn.socket.io/4.0.0/socket.io.esm.min.js';
+    // Import socket.io-client from CDN
+    import { io } from 'https://cdn.socket.io/4.0.0/socket.io.esm.min.js';
+
+    // Connect to your Glitch backend
+    const socket = io('https://ember-phantom-margin.glitch.me');
 
 const container = document.getElementById('skin-viewer');
 const downloadButton = document.getElementById('download');
