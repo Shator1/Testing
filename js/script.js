@@ -14,7 +14,6 @@ let selectedSkinURL = "";
 const fileInput = document.querySelector('input[type="file"]');
 let timeoutId = null;
 
-const socket = io('https://ember-phantom-margin.glitch.me'); // Glitch backend URL for Socket.IO
 
 const overlayContainer = document.getElementById("overlay_elements");
 const tagsContainer = document.getElementById("tag-container");
