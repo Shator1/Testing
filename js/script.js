@@ -1,4 +1,4 @@
-import * as skinview3d from 'https://cdn.jsdelivr.net/npm/skinview3d@latest/dist/skinview3d.module.js';
+import * as skinview3d from "skinview3d";
 import io from 'socket.io-client';
 
 const container = document.getElementById('skin-viewer');
